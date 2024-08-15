@@ -12,11 +12,11 @@ public class HelloController {
 
     @GetMapping("/user")
     public String userPage() {
-        return "User";
+        return "User Page";
     }
 
     @GetMapping("/admin")
     public String adminPage() {
-        return "Admin";
+        return "Admin Page";
     }
 }
